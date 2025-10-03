@@ -1,6 +1,8 @@
 import ollama
 import os
 
+# docker-compose run --rm -it chatbot
+
 model = "mistral"
 ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 
@@ -28,6 +30,6 @@ while True:
     )
 
     kit_response = response['message']['content']
-    print("Kit Bot:", kit_response + "\n")
+    print("K1t Bot:", kit_response + "\n")
 
     messages.append({"role": "assistant", "content": kit_response})
