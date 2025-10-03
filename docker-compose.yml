@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    container_name: k1t-bot
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434  # Connects to local Ollama
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
