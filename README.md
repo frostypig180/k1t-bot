@@ -12,4 +12,4 @@ This is an AI chatbot powered by a and Mistral AI, built in Python and container
 
 ```bash
 docker-compose run --rm -it chatbot
-# poo
+# poopy
