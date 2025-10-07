@@ -11,4 +11,4 @@ This is an AI chatbot powered by Ollama's local LLMs (e.g. Mistral), built in Py
 ## 🚀 Run the Bot
 
 ```bash
-docker-compose up --build
+docker-compose run --rm -it chatbot
