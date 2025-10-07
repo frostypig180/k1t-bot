@@ -10,7 +10,8 @@ ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 ollama.base_url = ollama_host
 
 messages = [
-    {"role": "system", "content": "You are an expert computer engineering professor named Kit."}
+    {"role": "system", 
+     "content": "You are an expert computer engineering professor named Kit."}
 ]
 
 print("👋 Hello, my name is Kit Bot")
