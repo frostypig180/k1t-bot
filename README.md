@@ -1,6 +1,6 @@
 # Kit Bot Chatbot
 
-This is an AI chatbot powered by Ollam and Mistral AI, built in Python and containerized with Docker.
+This is an AI chatbot powered by a and Mistral AI, built in Python and containerized with Docker.
 
 ## Prerequisites
 
