@@ -12,3 +12,4 @@ This is an AI chatbot powered by Ollama's local LLMs (e.g. Mistral), built in Py
 
 ```bash
 docker-compose run --rm -it chatbot
+# poo
